@@ -1,6 +1,4 @@
-body {
-    background-color: red;
-}
+
 body {
     text-align: center;
     margin: 0;
@@ -16,6 +14,7 @@ body {
 h1 {
     font-size: 4rem;
     margin-bottom: 0;
+    letter-spacing: 0.05em;
 }
 
 h2 {
