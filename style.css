@@ -35,6 +35,8 @@ section {
     color: #5c5248;
 }
 .wood-sign {
+background-image: url("images/button-background.png");
+padding: 120px;
 background-size: contain;
 background-repeat: no-repeat;
 background-position: center;
