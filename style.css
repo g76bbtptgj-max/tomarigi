@@ -7,7 +7,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
+    background-color: #f5f3ee;
     font-family: serif;
 }
 h1 {
