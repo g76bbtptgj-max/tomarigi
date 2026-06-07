@@ -4,8 +4,18 @@ body {
     min-height: 100vh;
 
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 
     font-family: serif;
+}
+h1 {
+    font-size: 4rem;
+    margin-bottom: 0;
+}
+
+h2 {
+    font-size: 1.2rem;
+    font-weight: normal;
 }
