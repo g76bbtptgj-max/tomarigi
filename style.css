@@ -35,6 +35,28 @@ section {
     padding: 80px 20px;
     color: #5c5248;
 }
+/*とまりぎとは～のアニメーション設定*/
+.about-section {
+    opacity: 0;
+    transform: translateY(50px);
+
+    transition:
+        opacity 1s ease,
+        transform 1s ease;
+}
+.about-section.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+
+.about-section p {
+    white-space: pre-line;
+    text-align: center;
+    margin-top: 20px;
+    line-height: 2;
+}
+
 /*木のボタンの設定*/
 .wood-button{
     display: block;
