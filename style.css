@@ -29,12 +29,17 @@ body {
     text-shadow: 0 2px 10px rgba(0,0,0,0.3);
 }
 /*とまりぎとは～の設定*/
-section {
+.about-section {
     max-width: 800px;
     margin: 0 auto;
     padding: 80px 20px;
     color: #5c5248;
+    text-align: center;
 }
+.about-section .wood-button {
+    margin: 0 auto;
+}
+
 /*とまりぎとは～のアニメーション設定*/
 .about-section {
     opacity: 0;
@@ -47,10 +52,11 @@ section {
 .about-section.show {
     opacity: 1;
     transform: translateY(0);
+
 }
 
 
-.about-section p {
+.about-section {
     white-space: pre-line;
     text-align: center;
     margin-top: 20px;
@@ -60,11 +66,10 @@ section {
 /*木のボタンの設定*/
 .wood-button{
     display: block;
+    align-self: center;
 
     width: 400px;
     height: 160px;
-
-    margin: 50px auto;
 
     background-image: url("images/button-background.png");
     background-size: contain;
@@ -78,4 +83,26 @@ section {
     text-decoration: none;
     color: #f5f3ee;
     font-size: 1.5rem;
+}
+
+.seat-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-top: 40px;
+}
+.seat-menu-image img {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+}
+.seat-menu-hitoyasumi-text{
+    text-align: center;
+    font-size: 1.2rem;
+    color: #5c5248;
+    margin-top: 40px;
+    display:flex;
+    flex-direction: column;
+    gap: 10px;
 }
