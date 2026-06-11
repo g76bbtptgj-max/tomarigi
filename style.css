@@ -2,7 +2,7 @@
 body {
     margin: 0;
     background-color: #f5f3ee;
-    font-family: "Noto Serif JP", serif;
+    font-family: "Zen Kurenaido", sans-serif;
 }
 /*ヒーロー画像とタイトルの設定*/
 .hero {
@@ -32,7 +32,7 @@ body {
 .about-section {
     max-width: 800px;
     margin: 0 auto;
-    padding: 80px 20px;
+    padding: 40px 20px;
     color: #5c5248;
     text-align: center;
 }
@@ -55,12 +55,29 @@ body {
 
 }
 
+.about-section .wood-button{
+    margin: 0 auto;
+    border: 3px solid yellow;
+}
 
 .about-section {
-    white-space: pre-line;
     text-align: center;
-    margin-top: 20px;
-    line-height: 2;
+    line-height: 1.6;
+    border: 3px solid violet;
+    padding: 0px;
+    height: auto;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    gap:10px;
+    padding: 20px;
+}
+
+.about-section p{
+    border:3px solid cyan;
+    margin:0;
+    padding:0;
+    position:static;
 }
 
 /*木のボタンの設定*/
@@ -85,24 +102,51 @@ body {
     font-size: 1.5rem;
 }
 
-.seat-menu {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 40px;
-    margin-top: 40px;
-}
 .seat-menu-image img {
     width: 300px;
     height: auto;
     border-radius: 10px;
 }
-.seat-menu-hitoyasumi-text{
+.seat-menu-text{
     text-align: center;
     font-size: 1.2rem;
     color: #5c5248;
     margin-top: 40px;
     display:flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 0px;
+}
+.seat-menu {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+
+.seat-card {
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    margin: 0 auto;
+    max-width:1200px;
+    padding: 20px;
+}
+
+.seat-card{
+    display:flex;
+    align-items:center;
+    gap: 80px;
+
+    border:5px solid red;
+}
+
+.seat-menu-image{
+    border:5px solid blue;
+}
+
+.seat-menu-text{
+    border:5px solid green;
+}
+
+.wood-button{
+    border:3px solid purple;
 }
