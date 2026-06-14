@@ -168,3 +168,23 @@ width: fit-content;
     gap: 30px;
     border:5px solid red;
 }
+
+.concept h1{
+    text-align: center;
+    font-size: 1.5rem;
+    color: #5c5248;
+    margin-top: 40px;
+    display:flex;
+    flex-direction: column;
+    gap: 0px;
+}
+
+.concept p{
+    text-align: center;
+    font-size: 1.2rem;
+    color: #5c5248;
+    margin-top: 40px;
+    display:flex;
+    flex-direction: column;
+    gap: 0px;
+}
