@@ -60,7 +60,24 @@ const recommenddrinks = [
   weather: ["rain", "cloud"],
   seat: ["okomori"],
   season: ["autumn", "winter"]
+},
+
+{
+  name: "じわっとりんご",
+  image: "images/apple-cinnamon.png",
+
+  type: "juice",
+  temp: "hot",
+  sweetness: 4,
+  caffeine: false,
+
+  mood: ["relax"],
+  weather: ["rain", "cloud"],
+  seat: ["okomori"],
+  season: ["autumn", "winter"]
+
 }
+
 
 ];
 
